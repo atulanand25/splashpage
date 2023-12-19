@@ -85,6 +85,18 @@
 
         <p>हमारे नेटवर्क पर जिम्मेदारीपूर्वक समय बिताएं!</p>
     </div>
+      <div id="continue">
+        <h1>$MERAKI:WELCOME$$MERAKI:NETWORK_NAME$</h1>
+        <p>$MERAKI:NETWORK_MESSAGE$</p>
+        <a class="button" href="$MERAKI:AUTH_AND_CONTINUE_URL$" title="Continue to the Internet">$MERAKI:CONTINUE_TO_THE_INTERNET$</a>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>POWERED BY</h3>
+      $MERAKI:CISCO_MERAKI_SMALL$
+    </div>
+    
+$MERAKI:MERAKI_JS$
 
     <script>
         function toggleLanguage() {
